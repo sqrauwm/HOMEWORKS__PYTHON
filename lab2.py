@@ -10,14 +10,14 @@
 
 # Zad 2. 
 
-# slownik = {'naura':'pospolite do widzenia',"wtf":'co kurcze?', 'lol':'league of legends' }
+# slownik = {'naura':'pospolite do widzenia',"wtf":'co kurcze?', 'lol':'laughing out loud' }
 # print(slownik['naura'])
 # print(slownik['wtf'])
 # print(slownik['lol'])
 
 # Zad 3. 
 
-# slownik = {'val':'valorancik',"lol":'league of legends', 'la':'lost ark' }
+# slownik = {'val':'valorancik',"lol":'league of legends', 'cs':'counter stroje ' }
 # print(len(dict.keys(slownik)))
 
 # Zad 4. 
@@ -51,7 +51,7 @@
 
 # Zad 7. 
 
-# lista = [ 1, 4, 6, 5, 3.14, 5.1, 6.5]
+# lista = [ 9, 43, 86, 5.25, 2.78, 9.99, 1.23]
 # for x in lista:
 #     print(type(x))
 # for x in lista:
