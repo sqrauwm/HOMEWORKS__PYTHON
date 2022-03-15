@@ -17,7 +17,7 @@
 
 # Zad 3. 
 
-# slownik = {'val':'valorancik',"lol":'league of legends', 'cs':'counter stroje ' }
+# slownik = {'val':'valorancik',"lol":'league of legends', 'cs':'counter strike ' }
 # print(len(dict.keys(slownik)))
 
 # Zad 4. 
