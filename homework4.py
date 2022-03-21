@@ -79,37 +79,37 @@
 
 
 # Zadanie. 6 TWORZYMY ROBAKA
-#
-# class Robaczek:
-#     def __init__(self, x, y, krok):
-#         self.x = x
-#         self.y = y
-#         self.krok = krok
-#
-#     def idz_gora(self, ile):
-#         self.y += ile * self.krok
-#
-#     def idz_prawo(self, ile):
-#         self.x += ile * self.krok
-#
-#     def idz_dol(self, ile):
-#         self.y -= ile * self.krok
-#
-#     def idz_lewo(self, ile):
-#         self.x -= ile * self.krok
-#
-#     def gdzie_jestes(self):
-#         print('x: ' + str(self.x) + ', y: ' + str(self.y))
-#
-# robak = Robaczek(10, 10, 1)
-# robak.gdzie_jestes()
-# robak.idz_gora(5)
-# robak.gdzie_jestes()
-# robak.idz_lewo(1)
-# robak.gdzie_jestes()
-# robak.idz_dol(6)
-# robak.gdzie_jestes()
-# robak.idz_prawo(3)
-# robak.gdzie_jestes()
+
+class Robaczek:
+    def __init__(self, x, y, krok):
+        self.x = x
+        self.y = y
+        self.krok = krok
+
+    def idz_gora(self, ile):
+        self.y += ile * self.krok
+
+    def idz_prawo(self, ile):
+        self.x += ile * self.krok
+
+    def idz_dol(self, ile):
+        self.y -= ile * self.krok
+
+    def idz_lewo(self, ile):
+        self.x -= ile * self.krok
+
+    def gdzie_jestes(self):
+        print('x: ' + str(self.x) + ', y: ' + str(self.y))
+
+robak = Robaczek(10, 10, 1)
+robak.gdzie_jestes()
+robak.idz_gora(5)
+robak.gdzie_jestes()
+robak.idz_lewo(1)
+robak.gdzie_jestes()
+robak.idz_dol(6)
+robak.gdzie_jestes()
+robak.idz_prawo(3)
+robak.gdzie_jestes()
 
 
