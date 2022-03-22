@@ -102,8 +102,8 @@
 
 # Zadanie 9
 
-# from pakiety import ciag_g
-# from pakiety import ciag_a
-# ciag_g.geo()
-# ciag_a.ary()
+from pakiety import ciag_g
+from pakiety import ciag_a
+ciag_g.geo()
+ciag_a.ary()
 
