@@ -1,0 +1,5 @@
+def geo():
+    print("Ciag geometryczny \n")
+    print("Wzór na n-ty wyraz:an=a1⋅q^(n−1)")
+    print("Wzór na sumę n wyrazów ciągu: Sn=(a1⋅1−qn1−q) dla q≠1  a1⋅n dla q=1\n")
+    return 0
