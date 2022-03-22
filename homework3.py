@@ -19,10 +19,10 @@
 # lista2 = [x for x in lista1 if x%2==0]
 # print(lista2)
 
-# # Zadanie 3
-#
-# produkty = {'ziemniaki':'kg',"czekolada":'sztuki', 'mleko':'litry',"baterie":'sztuki',"loudy":'sztuki'}
-# na_sztuki = {a:b for (a,b) in produkty.items() if b == 'sztuki'}
+# Zadanie 3
+
+# produkty = {'ziemniaki':'kg','czekolada':'sztuki', 'mleko':'litry','baterie':'sztuki','loudy':'sztuki'}
+# na_sztuki = [a for (a,b) in produkty.items() if b == 'sztuki']
 # print(na_sztuki)
 
 # # Zadanie 4
@@ -88,17 +88,22 @@
 
 # Zadanie 8 DO ZROBIENIA ?????????????????????????????????????????????????????????????????????????????????
 
-def lista_zakupow(** rzeczy):
-    for cos in rzeczy:
-        print("Liczba produktow: " + len(str(rzeczy)) + "\n")
-        print("Laczny koszt produktow: " + sum(value(rzeczy)) + "\n")
+# def lista_zakupow(** produkty):
+#     ilosc_produktow = 0
+#     cena_produktow = 0
+#     for x in produkty:
+#         ilosc_produktow += 1
+#         cena_produktow += produkty[x]
+#     print('Ilosc produktow: ', ilosc_produktow)
+#     print('Laczny koszt produktow: ', cena_produktow)
+#
+#
+# lista_zakupow(ciastka = 3.89, chipsy = 5.49, woda = 2.99, wudeczka = 23.99, liqudzior = 74.99)
 
-
-lista_zakupow(czekolada=['3'], chipsy=['5'], woda=['2'],wudeczka=['23'],liqudzior=['70'])
-
-# # Zadanie 9
+# Zadanie 9
 
 # from pakiety import ciag_g
 # from pakiety import ciag_a
 # ciag_g.geo()
-# ciag_a.aryt()
+# ciag_a.ary()
+
