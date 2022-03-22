@@ -70,10 +70,10 @@
 # print(lista)
 
 # Zad. 9.
-# 
-# import math
-# a = int(input('Wpisz liczbe: '))
-# if(a<0):
-#     print('cos poszlo nie tak!')
-# else:
-#     print(math.sqrt(a))
+
+import math
+a = int(input('Wpisz liczbe: '))
+if(a<0):
+    print('cos poszlo nie tak!')
+else:
+    print(math.sqrt(a))
