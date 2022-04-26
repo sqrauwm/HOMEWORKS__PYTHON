@@ -72,10 +72,10 @@ import numpy as np
 #
 # ciac(int(input("n: ")), input("kierunek: "))
 
-# # Zadanie 9
-# a1 = int(input("a1: "))
-# r = int(input("r: "))
-# n = a1 + 25 * r
-# wynik = np.arange(a1, n, r)
-# wynik = wynik.reshape(5, 5)
-# print(wynik)
+# Zadanie 9
+a1 = int(input("a1: "))
+r = int(input("r: "))
+n = a1 + 25 * r
+wynik = np.arange(a1, n, r)
+wynik = wynik.reshape(5, 5)
+print(wynik)
