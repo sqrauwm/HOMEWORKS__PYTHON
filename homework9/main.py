@@ -20,4 +20,12 @@ import matplotlib.pyplot as plt
 #             rot=0, title='Ilość imion w zależności od płci')
 # plt.show()
 
-# Zadanie 3 ????
+# Zadanie 3
+
+xlsx = pd.ExcelFile('imiona.xlsx')
+df = pd.read_excel(xlsx, header=0)
+grupa = df[df['Rok']>2011].groupby('Plec').agg({'Liczba':['sum']})
+grupa.plot.pie(subplots=True, autopct='%.2f %%', fontsize=20)
+plt.show()
+
+# Zadanie 4 ??
